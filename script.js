@@ -1,3 +1,10 @@
+var cur=document.querySelector("#cursor");
+
+document.addEventListener('mousemove',(e)=>{
+    cur.style.left=e.x +"px";
+    cur.style.top=e.y +"px";
+})
+
 gsap.to("#nav",{
     backgroundColor:"#000",
     height:"100",
