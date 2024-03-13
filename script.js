@@ -26,8 +26,8 @@ gsap.to(".main",{
         target:".main",
         scroll:"body",
         // markers:true,
-        start:"top -40%",
-        end:"top -80%",
+        start:"top -30%",
+        end:"top -70%",
         scrub:2
 
 
