@@ -242,7 +242,7 @@ video{
 .news{
     height: 300px;
     width: 100%;
-    background-color: #95C11E;
+    background:linear-gradient(to left bottom,#079D3Ced,#AEE123);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -263,4 +263,60 @@ video{
     font-weight: 800;
     text-align: center;
     line-height: 50px;
+}
+.food{
+    height: 500px;
+    width: 100%;
+    margin: 50px 0px;
+    /* padding: 50px; */
+    /* background-color: #39cb11; */
+    display: flex;
+    align-items: center;
+}
+.foodimg{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.foodimg img{
+    height: 80%;
+    width: 85%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.content{
+    /* background-color: #1cc28b; */
+    padding: 20px 90px;
+    width: 50%;
+}
+.content h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.content button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #95C11E;
+    font-size: 17px;
+    transition: all linear 0.5s;
+
+
+}
+.content button:hover{
+    background-color: #95C11E;
+    color: black;
+    font-weight: 700;
 }
