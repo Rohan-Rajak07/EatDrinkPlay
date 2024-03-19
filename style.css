@@ -238,6 +238,7 @@ video{
 }
 .card:hover .card-screen{
     opacity: 1;
+    cursor: pointer;
 }
 .news{
     height: 300px;
@@ -267,7 +268,8 @@ video{
 .food{
     height: 500px;
     width: 100%;
-    margin: 50px 0px;
+    margin-top: 50px;
+    /* margin: 50px 0px; */
     /* padding: 50px; */
     /* background-color: #39cb11; */
     display: flex;
@@ -311,12 +313,178 @@ video{
     font-weight: 600;
     border: 2px solid #95C11E;
     font-size: 17px;
-    transition: all linear 0.5s;
-
-
+    transition: all linear 0.3s;
 }
 .content button:hover{
     background-color: #95C11E;
     color: black;
     font-weight: 700;
 }
+#page-3{
+    height: 80vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: red; */
+}
+#page-3>p{
+    font-size: 35px;
+    font-weight: 800;
+    width: 60%;
+    /* background-color: red; */
+    line-height: 50px;
+    text-align: center
+}
+#page-3 img{
+    height: 40px;
+}
+#page-3 #colon-1{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+#page-3 #colon-2{
+    position: absolute;
+    bottom: 28%;
+    right: 12%;
+}
+#page-4{
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+#page-4 p
+{
+    font-family: sans-serif;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    -webkit-text-stroke: 1px white;
+}
+.pg4box{
+    /* height: 200px; */
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.pg4box .boxs{
+    height: 160px;
+    width: 32%;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.boxs img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    scale: 1.1;
+    transition: all linear 0.3s;
+}
+.boxs h4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: #95C11E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all linear 0.3s;
+    z-index: 1;
+
+}
+.boxs:hover h4{
+    background-color: transparent;
+    color: #fff;
+}
+.boxs:hover img{
+    scale: 1;
+}
+footer{
+    height: 350px;
+    width: 100%;
+    background:linear-gradient(to left bottom,#079D3C,#AEE223);
+    overflow: hidden;
+    position: relative;
+}
+footer>img{
+    height: 95%;
+}
+.foot{
+    height: 320px;
+    width: 100%;
+    /* background-color: rgb(244, 226, 226); */
+    position: absolute;
+    top: 30px;
+}
+.foot1{
+    height: 260px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.foot1 .f1 img{
+    height: 100px;
+    margin-bottom: 50px;
+}
+.f1 .social i{
+    font-size: 35px;
+    color: black;
+}
+.f1 .social i:hover{
+    color: #fff;
+}
+.foot1 h4{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #000;
+}
+.foot1 h4:hover{
+    color: #fff;
+}
+.foot1 .f4 h6{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+}
+.foot1 .f4 h5{
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+}
+.foot2{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot2 p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+

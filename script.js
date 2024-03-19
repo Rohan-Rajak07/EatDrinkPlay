@@ -5,6 +5,7 @@ document.addEventListener('mousemove',(e)=>{
     cur.style.top=e.y +"px";
 })
 
+
 gsap.to("#nav",{
     backgroundColor:"#000",
     height:"100",
@@ -29,7 +30,31 @@ gsap.to(".main",{
         start:"top -30%",
         end:"top -70%",
         scrub:2
-
-
+    }
+})
+gsap.from("#colon-1",{
+    x:-70,
+    y:-70,
+    scrollTrigger:{
+        trigger:"#colon-1",
+        scroller:"body",
+        scrub:2
+    }
+})
+gsap.from("#colon-2",{
+    x:70,
+    y:70,
+    scrollTrigger:{
+        trigger:"#colon-1",
+        scroller:"body",
+        scrub:1
+    }
+})
+gsap.from("#page-4 p",{
+    y:100,
+    scrollTrigger:{
+        trigger:"#page-4 p",
+        scroller:"body",
+        scrub:1
     }
 })
